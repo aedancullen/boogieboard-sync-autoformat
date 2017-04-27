@@ -1,4 +1,2 @@
 
-mogrify -format png -density 300 *.PDF
-mogrify -rotate 90 *.png
-mogrify -trim *.png
+mogrify -format png -density 300 -rotate 90 -trim *.PDF
